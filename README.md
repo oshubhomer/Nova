@@ -106,34 +106,50 @@ Generate:
 # 📸 Screenshots
 
 ## 🖥 Main GUI
-```text
-Add screenshot:
-screenshots/gui.png
-```
+
+<p align="center">
+  <img src="screenshots/gui.png" width="900"/>
+</p>
+
+<p align="center">
+  <b>Nova Interactive GUI Interface</b>
+</p>
 
 ---
 
 ## 🎤 Speech Recognition
-```text
-Add screenshot:
-screenshots/stt.png
-```
+
+<p align="center">
+  <img src="screenshots/stt.png" width="900"/>
+</p>
+
+<p align="center">
+  <b>Real-Time Speech Recognition using Faster-Whisper</b>
+</p>
 
 ---
 
 ## 🎨 AI Image Generation
-```text
-Add screenshot:
-screenshots/image_generation.png
-```
+
+<p align="center">
+  <img src="screenshots/image_generation.png" width="900"/>
+</p>
+
+<p align="center">
+  <b>AI-Powered Image Generation Module</b>
+</p>
 
 ---
 
 ## ⚡ Automation Demo
-```text
-Add screenshot:
-screenshots/automation.png
-```
+
+<p align="center">
+  <img src="screenshots/automation.png" width="900"/>
+</p>
+
+<p align="center">
+  <b>Voice-Based Intelligent Automation</b>
+</p>
 
 ---
 
@@ -181,13 +197,19 @@ NOVA 1.O/
 │   ├── __init__.py
 │   └── GUI.py
 │
-├── Data/
-│
 ├── screenshots/
+│   ├── .gitkeep
+│   ├── automation.png
+│   ├── gui.png
+│   ├── image_generation.png
+│   └── stt.png
+│
+├── Data/
 │
 ├── requirements.txt
 ├── README.md
 ├── Main.py
+├── .gitignore
 └── .env
 ```
 
@@ -223,6 +245,7 @@ Unlike traditional assistants, Nova provides:
 ```
 
 Nova combines:
+
 ```text
 AI + NLP + Automation + GUI + Voice Interaction
 ```
@@ -326,6 +349,7 @@ python Main.py
 # 🎤 Example Commands
 
 ## 💬 General Conversation
+
 ```text
 "Who are you?"
 "Tell me a joke"
@@ -334,6 +358,7 @@ python Main.py
 ---
 
 ## ⚡ Automation
+
 ```text
 "Open Spotify"
 "Search YouTube for AI videos"
@@ -342,6 +367,7 @@ python Main.py
 ---
 
 ## 🌐 Real-Time Search
+
 ```text
 "What is the weather today?"
 "Latest AI news"
@@ -350,6 +376,7 @@ python Main.py
 ---
 
 ## 🎨 Image Generation
+
 ```text
 "Generate an image of Lord Krishna"
 "Create futuristic robot art"
@@ -358,6 +385,7 @@ python Main.py
 ---
 
 ## 📝 Content Generation
+
 ```text
 "Write a blog on artificial intelligence"
 "Generate caption for Instagram"
